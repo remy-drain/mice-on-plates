@@ -1,0 +1,22 @@
+:root {
+    /* Color palettes */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    height: 1.5em;
+    padding: 1.5em;
+}
+
+#nav a {
+    text-decoration: none;
+}
