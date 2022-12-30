@@ -20,3 +20,28 @@
 #nav a {
     text-decoration: none;
 }
+
+main {
+    display: grid;
+    grid-template-areas: 
+    "desc img"
+    "ingr equip"
+    "dir dir";
+    padding: 1.5em;
+}
+
+#description {
+    grid-area: desc;
+}
+
+#equipment {
+    grid-area: equip;
+}
+
+#ingredients {
+    grid-area: ingr;
+}
+
+#directions {
+    grid-area: dir;
+}
